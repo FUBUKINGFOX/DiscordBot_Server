@@ -11,6 +11,5 @@ module.exports = {
 		const guild = await client.guilds.fetch(get_cfg_value("config","MAIN","GUILD_ID",""))
 		const ch = await guild.channels.fetch(get_cfg_value("config","MAIN","ON_READY_MSG",""))
 		await ch.send(`${client.user.username}\`${client.user.id}\``)
-		console.log(client.application)
 	},
 };
