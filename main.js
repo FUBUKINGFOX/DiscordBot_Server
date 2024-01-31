@@ -62,7 +62,7 @@ async function main(){
 
 		// The put method is used to fully refresh all commands in the guild with the current set
 		const data = await rest.put(
-			Routes.applicationCommands(client.application.id),
+			Routes.applicationCommands(get_cfg_value("config", "MAIN", "APPLICATION_ID", "")),
 			{ body: commands },
 		);
 

@@ -14,7 +14,7 @@ module.exports = {
             console.error(`No command matching ${interaction.commandName} was found.`);
             return;
         }
-        const APPLICATION_tester = [ get_cfg_value("config", "main", "OWNER_ID", "0") ]
+        const APPLICATION_tester = [ get_cfg_value("config", "MAIN", "OWNER_ID", "0") ]
         try {
             if (command.beta == true){
                 if (APPLICATION_tester.includes(interaction.user.id)){
