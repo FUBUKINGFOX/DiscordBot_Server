@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "name": "執行指令碼: run",
+            "request": "launch",
+            "command": "npm run run",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

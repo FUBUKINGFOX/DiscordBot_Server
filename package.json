@@ -4,12 +4,22 @@
   "description": "discord bot [javascript]",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node main.js"
   },
   "keywords": [
     "discord",
     "bot"
   ],
   "author": "Jaycheng",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.0",
+    "discord.js": "^14.13.0",
+    "ffmpeg-static": "^5.2.0",
+    "ini": "^4.1.1",
+    "sodium-native": "^4.0.4",
+    "ytdl-core": "^4.11.5",
+    "ytsr": "^3.8.4"
+  }
 }
