@@ -3,8 +3,9 @@ This is the discord bot powered by node_js
 
 # How to build discord bot server(Windows)
 ## 1.download git and node js
-[GIT](https://git-scm.com/)
-[node js](https://nodejs.org/en)
+＞ [GIT](https://git-scm.com/)
+
+> [node js](https://nodejs.org/en)
 
 ## 2.Type the following command in console
 ```
