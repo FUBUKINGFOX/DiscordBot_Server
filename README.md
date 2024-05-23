@@ -1,7 +1,7 @@
 # DiscordBot_Server
 This is the discord bot powered by node_js
 
-# How to build discord bot server
+# How to build discord bot server(Windows)
 ## 1.download git
 [LINK](https://git-scm.com/)
 
