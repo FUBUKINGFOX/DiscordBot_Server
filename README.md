@@ -14,7 +14,7 @@ git clone https://github.com/FUBUKINGFOX/DiscordBot_Server.git
 ```
 cd ./DiscordBot_Server
 ```
-> [!NOTE]
+> [!IMPORTANT]
 > make sure you have installed [Visual Studio C++](https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170)
 > and [python](https://www.python.org/downloads/) before run this command
 ```
