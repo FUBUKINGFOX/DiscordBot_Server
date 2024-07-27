@@ -42,3 +42,14 @@ get data from youtube by using [ytdl_core](https://github.com/fent/node-ytdl-cor
 
 # License
 > [MIT license](./LICENSE)
+
+
+# FAQ
+## discord bot [js] 403 error
+補丁
+> node_modules > ytdl-core > lib > sig.js > 第58行
+
+replace
+```js
+    let functionName = utils.between(body, 'c=a.get(b))&&(c=', '(c)');
+```
