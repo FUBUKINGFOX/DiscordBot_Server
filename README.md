@@ -48,6 +48,7 @@ get data from youtube by using [ytdl_core](https://github.com/fent/node-ytdl-cor
 ## discord bot [js] 403 error
 補丁
 > https://github.com/fent/node-ytdl-core/issues/1305#issuecomment-2253373635
+
 > node_modules > ytdl-core > lib > sig.js > 第58行
 
 replace
