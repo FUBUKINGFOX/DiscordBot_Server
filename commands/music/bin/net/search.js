@@ -1,5 +1,5 @@
 const fs = require("fs")
-const ytdl = require("ytdl-core")
+const ytdl = require("@distube/ytdl-core")
 const ytsr = require("ytsr")
 
 const { get_cfg_value } = require("../../../../module/config_loader")

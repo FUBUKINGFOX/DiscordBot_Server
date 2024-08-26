@@ -10,7 +10,7 @@ const client = new Client({
 	intents:[GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildMembers],
 })
 module.exports.client = client
-module.exports.server_version = "0.0.1b"
+module.exports.server_version = "0.0.2b"
 const rest = new REST({version:10}).setToken(get_cfg_value("config","MAIN","TOKEN",""))
 
 function load_commands(){

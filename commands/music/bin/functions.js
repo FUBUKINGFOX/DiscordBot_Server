@@ -1,5 +1,5 @@
 //  in this file:  ctx = interaction  //
-const ytdl  = require("ytdl-core")
+const ytdl  = require("@distube/ytdl-core")
 const { joinVoiceChannel,
     getVoiceConnection,
     createAudioResource,
