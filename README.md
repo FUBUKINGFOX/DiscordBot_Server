@@ -45,4 +45,6 @@ get data from youtube by using [ytdl_core](https://github.com/fent/node-ytdl-cor
 
 
 # FAQ
-null
+### youtube 403 ERROR
+> refer to this article
+> https://github.com/distubejs/ytdl-core/issues/236
