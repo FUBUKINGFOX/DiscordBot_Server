@@ -1,7 +1,8 @@
+package-lock.json
 config.json
 node_modules
 test
 config.ini
 CMD_config.ini
 filter
-package-lock.json
+COOKIE
