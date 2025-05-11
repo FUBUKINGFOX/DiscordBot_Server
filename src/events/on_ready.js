@@ -18,8 +18,8 @@ module.exports = {
 
 		}
 		else{
-			client.user.setStatus("idle")
-			client.user.setActivity("youtube",{type:ActivityType.Listening})
+			client.user.setStatus("online")
+			client.user.setActivity("music",{type:ActivityType.Listening})
 		}
 		const guild = await client.guilds.fetch(get_cfg_value("config","MAIN","GUILD_ID",""))
 		const ch = await guild.channels.fetch(get_cfg_value("config","MAIN","ON_READY_MSG",""))
