@@ -23,10 +23,10 @@ npm update
 
 ## 3.Change the files name
 `
-./DiscordBot_Server/config/CMD_config.example.ini ==> ./DiscordBot_Server/config/CMD_config.ini
+./DiscordBot_Server/src/config/CMD_config.example.ini ==> ./DiscordBot_Server/config/CMD_config.ini
 `
 `
-./DiscordBot_Server/config/config.example.ini ==> ./DiscordBot_Server/config/config.ini
+./DiscordBot_Server/src/config/config.example.ini ==> ./DiscordBot_Server/config/config.ini
 `
 ## 4.Config the .ini files
 > [!NOTE]
