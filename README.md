@@ -25,6 +25,7 @@ npm update
 `
 ./DiscordBot_Server/src/config/CMD_config.example.ini ==> ./DiscordBot_Server/src/config/CMD_config.ini
 `
+
 `
 ./DiscordBot_Server/src/config/config.example.ini ==> ./DiscordBot_Server/src/config/config.ini
 `
@@ -32,9 +33,9 @@ npm update
 > [!NOTE]
 > if you don't have the discord bot token refer to this [article](https://discord.com/developers/docs/quick-start/getting-started)
 
-./DiscordBot_Server/config/CMD_config.ini
+./DiscordBot_Server/src/config/CMD_config.ini
 
-./DiscordBot_Server/config/config.ini
+./DiscordBot_Server/src/config/config.ini
 ## 5.Click run.bat file start your discord bot
 
 # Music functions
