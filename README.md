@@ -41,6 +41,12 @@ npm update
 # Music functions
 get data from youtube by using [ytdl_core](https://github.com/fent/node-ytdl-core)
 
+# Ask BOT function
+
+> [!important]
+> To enable this function you need to builed a ollama api server also your discord bot need permision to get guild message
+
+
 # License
 > [MIT license](./LICENSE)
 
